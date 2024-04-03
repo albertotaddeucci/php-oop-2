@@ -16,7 +16,7 @@ class RegisteredUser extends User
 
     public function getPrice($price)
     {
-        $discount = $price * 0.02;
+        $discount = $price * 0.2;
         return round(($price - $discount), 2, PHP_ROUND_HALF_UP);
     }
 }

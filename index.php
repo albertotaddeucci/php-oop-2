@@ -35,7 +35,7 @@ require './db.php';
 
     <div class="container text-center my-5">
 
-        <h1>Prodotti</h1>
+        <h1 class="fw-bold">Prodotti</h1>
     </div>
 
     <?php include './layout/main.php' ?>
