@@ -16,11 +16,8 @@
                             <h5><?= $product->name ?></h5>
                             <h6><?= $product->price ?></h6>
                             <span><?= $product->category->icon ?></span>
-                            <span><?= isset($product->weight) ? $product->weight : ''; ?></span>
-                            <span><?= isset($product->hasBattery) ? "Richiede batterie" : ''; ?></span>
-
-
-
+                            <span><?= is_a($product, 'Food') ? $product->weight : ''; ?></span>
+                            <span><?= is_a($product, 'Game') && $product->hasBattery == true ? "Richiede batterie" : ''; ?></span>
 
 
                         </div>
