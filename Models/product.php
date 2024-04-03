@@ -12,7 +12,7 @@ class Product
      * __construct
      *
      * @param  string $_name
-     * @param  string $_price
+     * @param  float $_price
      * @param  Category $_category
      * 
      */

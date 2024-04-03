@@ -12,4 +12,9 @@ class User
         $this->username = $_username;
         $this->email = $_email;
     }
+
+    public function getPrice($price)
+    {
+        return $price;
+    }
 }

@@ -14,9 +14,9 @@ class RegisteredUser extends User
     }
 
 
-    // public function getDiscount($price)
-    // {
-    //     $discount = $price * 0.02;
-    //     return $discount;
-    // }
+    public function getPrice($price)
+    {
+        $discount = $price * 0.02;
+        return round(($price - $discount), 2, PHP_ROUND_HALF_UP);
+    }
 }
