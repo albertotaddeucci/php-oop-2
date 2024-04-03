@@ -2,6 +2,8 @@
 
 require './Models/category.php';
 require './Models/product.php';
+require './Models/food.php';
+require './Models/game.php';
 
 require './db.php';
 
