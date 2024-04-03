@@ -22,4 +22,4 @@ $user1 = new User("jhon", "jhon@doe");
 $user2 = new RegisteredUser("jhon", "jhon@doe", "1234");
 
 
-$userConnectedt = $user1;
+$userConnected = $user1;
