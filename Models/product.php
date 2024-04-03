@@ -5,7 +5,7 @@ class Product
     public $name;
     public $price;
     public $category;
-
+    public $image;
 
 
     /**
@@ -14,6 +14,7 @@ class Product
      * @param  string $_name
      * @param  string $_price
      * @param  Category $_category
+     * 
      */
     function __construct($_name, $_price, Category $_category)
     {

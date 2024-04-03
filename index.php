@@ -21,6 +21,9 @@ require './db.php';
     <!-- ------------------------------ My style ------------------------------- -->
     <link rel="stylesheet" href="">
 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/e2fdc6941e.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
