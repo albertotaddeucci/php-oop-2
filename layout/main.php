@@ -10,8 +10,8 @@
 
                 <div class="col-auto">
 
-                    <div class="card" style="width: 18rem;">
-                        <img src="<?= $product->image ?>" class="card-img-top" alt="...">
+                    <div class="card m-0 p-0 ' style='width: 15rem;" style="width: 18rem;">
+                        <img src="<?= $product->image ?>" class='object-fit-contain rounded-top-1 ' style='height: 25rem;'>
                         <div class="card-body">
                             <h5><?= $product->name ?></h5>
                             <h6><?= $product->price ?></h6>

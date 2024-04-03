@@ -21,7 +21,7 @@ require './db.php';
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- ------------------------------ My style ------------------------------- -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/e2fdc6941e.js" crossorigin="anonymous"></script>
@@ -30,7 +30,10 @@ require './db.php';
 
 <body>
 
-    <h1>Prodotti</h1>
+    <div class="container text-center my-5">
+
+        <h1>Prodotti</h1>
+    </div>
 
     <?php include './layout/main.php' ?>
 
