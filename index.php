@@ -4,8 +4,11 @@ require './Models/category.php';
 require './Models/product.php';
 require './Models/food.php';
 require './Models/game.php';
+require './Models/kennel.php';
 require './Models/user.php';
 require './Models/registeredUser.php';
+// require './Models/Traits/Sizeable.php';
+
 
 
 require './db.php';
