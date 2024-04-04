@@ -19,7 +19,13 @@ class Product
     function __construct($_name, $_price, Category $_category)
     {
         $this->name = $_name;
-        $this->price = $_price;
         $this->category = $_category;
+
+        if (is_numeric($_price)) {
+
+            $this->price = $_price;
+        } else {
+            throw new Exception("Prezzo non valido");
+        }
     }
 }

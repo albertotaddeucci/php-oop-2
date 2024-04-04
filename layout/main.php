@@ -5,6 +5,16 @@
 
         <div class="row justify-content-center gap-3 ">
             <?php
+
+            if ($error) {
+            ?>
+                <div class="alert alert-warning" role="alert">
+                    <?= $error ?>
+                </div>
+            <?php
+            }
+
+
             foreach ($products as $product) {
             ?>
 
